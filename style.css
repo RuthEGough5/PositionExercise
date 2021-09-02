@@ -1,0 +1,152 @@
+body {
+    background: #002754;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+h1 {
+    text-transform: uppercase;
+    background: #002754;
+    display: inline-block;
+}
+
+h2 {
+    text-decoration: underline;
+    background: #7B6FDE;
+    width: 20%;
+    margin: auto;
+
+    /* Bonus */
+    position: sticky;
+    top: 65px
+}
+
+div {
+    padding: 20px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+section {
+    width: 50vw;
+    height: 20vw;
+    margin: auto;
+    /* margin-bottom: 100px; */
+}
+
+#one {
+    background: rgb(200, 60, 60);
+}
+
+#two {
+    font-weight: 400;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+#space {
+    background: #266ef6;
+}
+
+#power {
+    background: #e429f2;
+}
+
+#soul {
+    background: #ff8b00;
+}
+
+#reality {
+    background: #ff0130;
+}
+
+#mind {
+    background: #ffd300;
+}
+
+#time {
+    background: #12e772;
+}
+
+#scroll {
+    margin-bottom: 2000px;
+}
+
+/* START BELOW THIS LINE */
+
+/* 1. Default position value all .html starts with "static" | {
+    position: static} */
+
+/* 2. */
+
+#power {
+    background: #e429f2;
+    position: relative;
+    right: 225px;
+}
+/* 3. */
+
+#space {
+    background: #266ef6;
+    position:relative;
+    right: 125px;
+    top: 115px;
+}
+/* 4. */
+
+#soul {
+    background: #ff8b00;
+    position:absolute;
+    right: 0px;
+    bottom: 0px;
+    /* BONUS (2) */
+    z-index: 5
+}
+/* 5. */
+
+#reality {
+    background: #ff0130;
+    position:absolute;
+    right: 0px;
+    bottom: 150px;
+    
+    /* BONUS (1) */
+    z-index: 2;
+}
+/* 6. */
+
+#mind {
+    background: #ffd300;
+    position:fixed;
+    right: 0px;
+}
+/* 7. */
+
+#time {
+    background: #12e772;
+    position:fixed;
+    right: 0px;
+    top: 0px;
+
+    /* BONUS */
+    z-index: 3;
+}
+
+/* 8. */
+
+h1 {
+    text-transform: uppercase;
+    background: #002754;
+    display: inline-block;
+    position: sticky;
+    top: 0;
+
+    /* 9. */
+    z-index: 2;
+}
+
